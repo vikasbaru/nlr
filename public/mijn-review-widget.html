@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-light sticky-top bg-white flex-md-nowrap p-0">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 ms-1 px-4" href="#">
+            <img src="assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="search d-flex align-items-center me-auto ps-4 text-muted">
+            <span data-feather="search"></span>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
+        </div>
+        <div class="navbar-nav flex-row align-items-center pe-5">
+            <div class="nav-item">
+                <a class="nav-link px-3 notif position-relative pt-3" href="#">
+                    <span data-feather="bell"></span>
+                    <span
+                        class=" notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">
+                        3<span class="visually-hidden">New alerts</span>
+                    </span>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link px-3 d-flex" href="#">
+                    <img src="assets/img/cherry.png" width="40" class="align-self-center" alt="">
+                    <span class="justify-content-center d-flex flex-column ms-2">
+                        <span class="d-block h6 text-black lh-sm mb-0 small">Cherry-Marketing</span>
+                        <span class="text-muted h6 lh-sm small mb-0 fw-normal">Bedrijfsprofiel</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-white sidebar collapse">
+                <div class="position-sticky pt-5 px-3 align-content-between d-flex flex-column h-100">
+                    <div class="aside-top">
+                        <h6
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-4 mt-4 mb-3 text-primary fs-6">
+                            <span>Menu</span>
+                        </h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <span data-feather="home"></span>
+                                    Overzicht
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="edit"></span>
+                                    Blogs maken
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="star"></span>
+                                    Mijn widget
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="briefcase"></span>
+                                    Bedrijfspagina
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside-bottom mt-auto text-center d-grid gap-0 px-4">
+                        <span class="d-block mb-2">Type account: <span class="fw-bold">Widget</span></span>
+                        <button type="button" class="btn btn-secondary rounded-pill mb-4">
+                            Nu upgraden
+                        </button>
+                        <hr class="row mt-2">
+                        <div class="text-start pb-4">
+                            <a href="" class="btn text-muted ps-0"><i data-feather="log-out"></i> Uitloggen</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-4">
+                <div class="pt-3 pb-2 ">
+                    <h1 class="h3 mb-3">Mijn review widget</h1>
+
+                    <div class="row pt-5">
+                        <div class="col-lg-6">
+                            <ul class="steps d-flex justify-content-between list-unstyled pb-2">
+                                <li class="done"><span><span data-feather="check"></span></span> Gegevens</li>
+                                <li class="active"><span>2</span>Bevestigen</li>
+                                <li><span>3</span>Afronden</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-7">
+                            <div class="card widget p-5 mt-4">
+                                <h4>Abbonnementsgegevens</h4>
+                                <hr>
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">Bedrijfsgegevens</h6>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Je bedrijfsnaam <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" placeholder="Je bedrijfsnaam…">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Emailadres (publiekelijk) <span
+                                                    class="text-danger">*</span> <span
+                                                    class="rounded-circle text-white bg-black bg-opacity-10 info ms-2"><span
+                                                        class="small">i</span></label>
+                                            <input type="email" class="form-control" placeholder="Je Emailadres…">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Telefoonnummer <span
+                                                    class="text-danger">*</span> <span
+                                                    class="rounded-circle text-white bg-black bg-opacity-10 info ms-2"><span
+                                                        class="small">i</span></label>
+                                            <input type="email" class="form-control" placeholder="Telefoonnummer...">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Adres <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email" class="form-control" placeholder="Adres...">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Postcode <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email" class="form-control" placeholder="Vul je postcode in…">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Plaatsnaam <span
+                                                    class="text-danger">*</span></label>
+                                            <input type="email" class="form-control"
+                                                placeholder="Vul je plaatsnaam in…">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">KvK-nummer <span
+                                                    class="text-danger">*</span> <span
+                                                    class="rounded-circle text-white bg-black bg-opacity-10 info ms-2"><span
+                                                        class="small">i</span></label>
+                                            <input type="email" class="form-control"
+                                                placeholder="Vul je KvK-nummer in…">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">BTW-nummer <span
+                                                    class="text-danger">*</span> <span
+                                                    class="rounded-circle text-white bg-black bg-opacity-10 info ms-2"><span
+                                                        class="small">i</span></label>
+                                            <input type="email" class="form-control"
+                                                placeholder="Vul je BTW-nummer in…">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">Factureringsgegevens</h6>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label rob" for="exampleCheck1">De
+                                                factureringsgegevens zijn hetzelfde als de abonneegegevens.</label>
+                                        </div>
+                                        <div class="text-end mt-4">
+                                            <button type="submit"
+                                                class="btn btn-secondary btn-lg px-5 rounded-pill">Volgende</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card widget p-5 mt-4">
+                                <h5 class="mb-3">Upgrade: Widget add-on</h5>
+                                <p class="fs-14">Verhoog je conversie met een review-widget op je website.</p>
+                                <ul class="fs-14 list-unstyled list-tick">
+                                    <li>Toon reviews op je website, in je e-mails en in je digitale marketing.</li>
+                                    <li>Doelgerichte reviews tonen die het meest relevant zijn voor je (potentiële)
+                                        klanten.</li>
+                                </ul>
+                                <h6>Kies facturatiefrequentie</h6>
+
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-pills nav-fill bg-secondary rounded-pill p-1" id="myTab"
+                                    role="tablist">
+                                    <li class="nav-item w-50" role="presentation">
+                                        <button class="nav-link active rounded-pill py-3" id="home-tab"
+                                            data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                                            aria-controls="home" aria-selected="true">Per maand</button>
+                                    </li>
+                                    <li class="nav-item w-50" role="presentation">
+                                        <button class="nav-link rounded-pill py-3" id="profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                            aria-selected="false">Per jaar (20% korting)</button>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content pt-4">
+                                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <table class="table table-borderless table-sm rob">
+                                            <tr>
+                                                <td>€ 139,00 x 12 maanden</td>
+                                                <td class="text-end">€ 1.668,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>21% BTW</td>
+                                                <td class="text-end">€ 417,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3">20% korting</td>
+                                                <td class="text-end pb-3">€ 68,00</td>
+                                            </tr>
+                                            <tr class="border-1">
+                                                <td class="border-top pt-3 fw-bold">Totaal</td>
+                                                <td class="border-top text-end pt-3 fw-bold">€ 2.085,00</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...
+                                    </div>
+                                </div>
+                                <p class="text-muted opacity-25 lh-lg small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

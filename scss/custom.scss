@@ -1,0 +1,34 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+
+// Then add additional custom code here
+
+$primary: #6B5BBF;
+$secondary: #29CC98;
+$danger: #FC5A5A;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $danger
+);
+
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-font-weight: 600;
+
+$btn-padding-x: 1.8rem;
+$table-striped-bg-factor: 0.01;
+$table-border-color: #fff;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$mynewcolor:#77cccc;
+
+.btn-secondary {
+    @include button-variant($secondary, $secondary, $white, lighten($secondary,10%), lighten($secondary, 10%), lighten($white,5%));
+}
+

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-light sticky-top bg-white flex-md-nowrap p-0">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 ms-1 px-4" href="#">
+            <img src="assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="search d-flex align-items-center me-auto ps-4 text-muted">
+            <span data-feather="search"></span>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
+        </div>
+        <div class="navbar-nav flex-row align-items-center pe-5">
+            <div class="nav-item">
+                <a class="nav-link px-3 notif position-relative pt-3" href="#">
+                    <span data-feather="bell"></span>
+                    <span class=" notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">
+                        3<span class="visually-hidden">New alerts</span>
+                    </span>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link px-3 d-flex" href="#">
+                    <img src="assets/img/cherry.png" width="40" class="align-self-center" alt="">
+                    <span class="justify-content-center d-flex flex-column ms-2">
+                        <span class="d-block h6 text-black lh-sm mb-0 small">Cherry-Marketing</span>
+                        <span class="text-muted h6 lh-sm small mb-0 fw-normal">Bedrijfsprofiel</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-white sidebar collapse">
+                <div class="position-sticky pt-5 px-3 align-content-between d-flex flex-column h-100">
+                    <div class="aside-top">
+                        <h6
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-4 mt-4 mb-3 text-primary fs-6">
+                            <span>Menu</span>
+                        </h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <span data-feather="home"></span>
+                                    Overzicht
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="edit"></span>
+                                    Blogs maken
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="star"></span>
+                                    Mijn widget
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="briefcase"></span>
+                                    Bedrijfspagina
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside-bottom mt-auto text-center d-grid gap-0 px-4">
+                        <span class="d-block mb-2">Type account: <span class="fw-bold">Widget</span></span>
+                        <button type="button" class="btn btn-secondary rounded-pill mb-4">
+                            Nu upgraden
+                        </button>
+                        <hr class="row mt-2">
+                        <div class="text-start pb-4">
+                            <a href="" class="btn text-muted ps-0"><i data-feather="log-out"></i> Uitloggen</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-4">
+                <div class="pt-3 pb-2 ">
+                    <h1 class="h3 mb-3">Dashboard</h1>
+
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <div class="card widget mb-3">
+                                <div class="card-header bg-secondary text-white position-relative">
+                                    <h5 class="mb-4 mt-2">Cherry-Marketing,<br>Welkom terug!</h5>
+                                    <img src="assets/img/cherry.png" class="position-absolute top-100 translate-middle-y">
+                                </div>
+                                <div class="card-body pt-5">
+                                    <h6 class="d-block h6 text-black lh-sm mb-1">Cherry-Marketing</h6>
+                                    <h6 class="text-muted h6 lh-sm small fw-normal">Bedrijfsprofiel</h6>
+                                    <p class="card-text"></p>
+                                    <a href="#">Ga naar je profiel</a>
+                                </div>
+                            </div>
+                            <div class="card widget mb-3">
+                                <div class="card-body">
+                                    <h6 class="d-block h6 text-black lh-sm mb-1">Samenvatting</h6>
+                                    <h6 class="text-muted h6 lh-sm small fw-normal">Ontvangen reviews deze maand</h6>
+                                    <h2 class="my-4 fw-bold">623</h2>
+                                    <span class="badge rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">+ 44.5% <i data-feather="arrow-up"></i></span>
+                                    <span class="text-muted ms-2 small">ten opzichte van vorige maand</span>
+                                </div>
+                            </div>
+                            <div class="card widget mb-3">
+                                <div class="card-body">
+                                    <h6 class="d-block h6 text-black lh-sm mb-1">Jouw widget impressies</h6>
+                                    <h6 class="text-muted h6 lh-sm small fw-normal">Impressies deze maand</h6>
+                                    <h2 class="my-4 fw-bold">160K</h2>
+                                    <span class="badge rounded-pill bg-danger bg-opacity-10 px-2 text-danger">- 6% <i data-feather="arrow-down"></i></span>
+                                    <span class="text-muted ms-2 small">ten opzichte van vorige maand</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-9">
+                            <div class="d-flex mb-4 align-items-center">
+                                <h3 class="mb-0">Laatste 24 uur</h3>
+                                <div class="btn-toolbar mb-2 mb-md-0 ms-auto align-items-center">
+                                    <span class="me-1">Toon:</span>
+                                    <div class="btn-group me-4 ms-2">
+                                        <button type="button" class="btn btn-outline-secondary active">24 uur</button>
+                                        <button type="button" class="btn btn-outline-secondary">Week</button>
+                                        <button type="button" class="btn btn-outline-secondary">Maand</button>
+                                        <button type="button" class="btn btn-outline-secondary">Jaar</button>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary rounded-pill">
+                                        <span data-feather="download"></span>
+                                        Export PDF
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-lg-4">
+                                    <div class="card widget mb-3">
+                                        <div class="card-body">
+                                            <h6 class="d-block h6 text-black lh-sm mb-1">Reviews ontvangen</h6>
+                                            <div class="d-flex align-items-baseline">
+                                                <h2 class="my-4 fw-bold">623</h2>
+                                                <h6 class="text-muted mb-0 ms-2 lh-sm small fw-normal">van 5156</h6>
+                                                <span class="badge ms-3 rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">+ 44.5% <i data-feather="arrow-up"></i></span>
+                                            </div>
+                                            <a href="#" class="card-link">Bekijk reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card widget mb-3">
+                                        <div class="card-body">
+                                            <h6 class="d-block h6 text-black lh-sm mb-1">Gemiddelde beoordeling</h6>
+                                            <div class="d-flex align-items-baseline">
+                                                <h2 class="my-4 fw-bold">8.7</h2>
+                                                <h6 class="text-muted mb-0 ms-2 lh-sm small fw-normal">Totaal 7.8</h6>
+                                                <span class="badge ms-3 rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">+ 4% <i data-feather="arrow-up"></i></span>
+                                            </div>
+                                            <a href="#" class="card-link">Bekijk reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card widget mb-3">
+                                        <div class="card-body">
+                                            <h6 class="d-block h6 text-black lh-sm mb-1">Aantal pagina views</h6>
+                                            <canvas id="lineChart" height="60"></canvas>
+                                            <div class="d-flex align-items-baseline">
+                                                <h2 class="mb-0 fw-bold">8.7</h2>
+                                                <h6 class="text-muted mb-0 ms-2 lh-sm small fw-normal">Totaal 7.8</h6>
+                                                <span class="badge ms-3 rounded-pill bg-danger bg-opacity-10 px-2 text-danger">- 2% <i data-feather="arrow-down"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-lg-6">
+                                    <div class="card widget mb-3">
+                                        <div class="card-body">
+                                            <h6 class="d-block h6 text-black lh-sm mb-1">Review bronnen</h6>
+                                            <canvas id="barPrimaryChart" height="180"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card widget mb-3">
+                                        <div class="card-body">
+                                            <h6 class="d-block h6 text-black lh-sm mb-1">Reviews verdeling</h6>
+                                            <canvas id="barSecondaryChart" height="180"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
