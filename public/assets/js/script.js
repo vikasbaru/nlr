@@ -1,3 +1,4 @@
+
 /* globals Chart:false, feather:false */
 
 (function () {
@@ -16,7 +17,7 @@
         label: '',
         data: [9, 8, 9, 8, 9],
         fill: false,
-        borderWidth: 2,
+        borderWidth: 1,
         borderColor: 'rgba(41, 204, 152, 1)'
       }]
     },

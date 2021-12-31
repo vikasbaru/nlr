@@ -25,14 +25,54 @@
             <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
         </div>
         <div class="navbar-nav flex-row align-items-center pe-5">
-            <div class="nav-item">
-                <a class="nav-link px-3 notif position-relative pt-3" href="#">
+            <div class="nav-item position-relative">
+                <a href="#" class="nav-link px-3 notif position-relative notification pt-3">
                     <span data-feather="bell"></span>
-                    <span
-                        class=" notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">
-                        3<span class="visually-hidden">New alerts</span>
-                    </span>
-                </a>
+                    <span class="notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">3</span>
+                    </a>
+                    <ul class="dropdown-menu notification-list">
+                        <h6 class="text-secondary ms-3">Notificiaties</h6>
+                        <li>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">10 minuten geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">2 uur geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">1 dag geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                       
+                      </ul>
+               
             </div>
             <div class="nav-item">
                 <a class="nav-link px-3 d-flex" href="#">
@@ -90,7 +130,7 @@
                     </div>
                     <div class="aside-bottom mt-auto text-center d-grid gap-0 px-4">
                         <span class="d-block mb-2">Type account: <span class="fw-bold">Widget</span></span>
-                        <button type="button" class="btn btn-secondary rounded-pill mb-4">
+                        <button type="button" class="btn btn-secondary rounded-pill mb-4 fw-bold">
                             Nu upgraden
                         </button>
                         <hr class="row mt-2">
@@ -106,7 +146,7 @@
                     <h1 class="h3 mb-3">Dashboard</h1>
 
                     <div class="row g-3">
-                        <div class="col-md-3">
+                        <div class="col-xl-3">
                             <div class="card widget mb-3">
                                 <div class="card-header bg-secondary text-white position-relative">
                                     <h5 class="mb-4 mt-2">Cherry-Marketing,<br>Welkom terug!</h5>
@@ -117,7 +157,7 @@
                                     <h6 class="d-block h6 text-black lh-sm mb-1">Cherry-Marketing</h6>
                                     <h6 class="text-muted h6 lh-sm small fw-normal">Bedrijfsprofiel</h6>
                                     <p class="card-text"></p>
-                                    <a href="#">Ga naar je profiel</a>
+                                    <a class="fw-bold" href="#">Ga naar je profiel</a>
                                 </div>
                             </div>
                             <div class="card widget mb-3">
@@ -142,10 +182,11 @@
                             </div>
                         </div>
 
-                        <div class="col-md-9">
-                            <div class="d-flex mb-4 align-items-center">
+                        <div class="col-xl-9">
+                            <div class="d-flex mb-4 align-items-center flex-column flex-lg-row">
+                                <div class="d-flex align-items-center justify-content-between mb-2 mb-lg-0 ">
                                 <h3 class="mb-0 me-3">Laatste 30 dagen</h3>
-                                <div class="form-floating">
+                                <div class="form-floating me-2">
                                     <select class="form-select" id="floatingSelect"
                                         aria-label="Floating label select example">
                                         <option selected>Alles</option>
@@ -155,7 +196,9 @@
                                     </select>
                                     <label for="floatingSelect">Filter op</label>
                                 </div>
-                                <div class="btn-toolbar mb-2 mb-md-0 ms-auto align-items-center">
+                                </div>
+                                <div class="btn-toolbar mb-2 mb-md-0 ms-lg-auto align-items-center justify-content-between ">
+                                    <div class="">
                                     <span class="me-1">Toon:</span>
                                     <div class="btn-group me-4 ms-2">
                                         <button type="button" class="btn btn-outline-secondary">24 uur</button>
@@ -163,7 +206,8 @@
                                         <button type="button" class="btn btn-outline-secondary active">Maand</button>
                                         <button type="button" class="btn btn-outline-secondary">Jaar</button>
                                     </div>
-                                    <button type="button" class="btn btn-secondary rounded-pill">
+                                    </div>
+                                    <button type="button" class="btn btn-secondary rounded-pill mt-2 fw-bold">
                                         <span data-feather="download"></span>
                                         Export PDF
                                     </button>
@@ -223,7 +267,7 @@
                                                     class="badge ms-3 rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">+
                                                     44.5% <i data-feather="arrow-up"></i></span>
                                             </div>
-                                            <a href="#" class="card-link">Bekijk reviews</a>
+                                            <a  href="#" class="card-link fw-bold">Bekijk reviews</a>
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +282,7 @@
                                                     class="badge ms-3 rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">+
                                                     4% <i data-feather="arrow-up"></i></span>
                                             </div>
-                                            <a href="#" class="card-link">Bekijk reviews</a>
+                                            <a  href="#" class="card-link fw-bold">Bekijk reviews</a>
                                         </div>
                                     </div>
                                 </div>
@@ -297,7 +341,7 @@
                                                 </div>
                                                 <div class="flex-grow-1 ms-3 mb-3">
                                                     <small class="text-muted opacity-50 d-block">5 minuten geleden</small>
-                                                    <b>Atention</b> is zojuist geregistreerd verlengd <a href="" class="ms-4">BEKIJK PROFIEL</a>
+                                                    <b>Atention</b> is zojuist geregistreerd verlengd <a href="" class="ms-4 fw-bold">BEKIJK PROFIEL</a>
                                                 </div>
                                             </div>
                                             <div class="d-flex align-items-center">
@@ -331,7 +375,7 @@
                                                 </div>
                                             </div>
                                             <div class="pt-4 ps-5">
-                                                <a href="" class="ms-5">ZIE MEER ACTIVITEIT</a>
+                                                <a href="" class="ms-5 fw-bold">ZIE MEER ACTIVITEIT</a>
                                             </div>
                                         </div>
                                     </div>

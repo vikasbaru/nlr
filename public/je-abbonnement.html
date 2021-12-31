@@ -25,14 +25,54 @@
             <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
         </div>
         <div class="navbar-nav flex-row align-items-center pe-5">
-            <div class="nav-item">
-                <a class="nav-link px-3 notif position-relative pt-3" href="#">
+            <div class="nav-item position-relative">
+                <a href="#" class="nav-link px-3 notif position-relative notification pt-3">
                     <span data-feather="bell"></span>
-                    <span
-                        class=" notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">
-                        3<span class="visually-hidden">New alerts</span>
-                    </span>
-                </a>
+                    <span class="notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">3</span>
+                    </a>
+                    <ul class="dropdown-menu notification-list">
+                        <h6 class="text-secondary ms-3">Notificiaties</h6>
+                        <li>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">10 minuten geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">2 uur geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">1 dag geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                       
+                      </ul>
+               
             </div>
             <div class="nav-item">
                 <a class="nav-link px-3 d-flex" href="#">
@@ -84,7 +124,7 @@
                     </div>
                     <div class="aside-bottom mt-auto text-center d-grid gap-0 px-4">
                         <span class="d-block mb-2">Type account: <span class="fw-bold">Widget</span></span>
-                        <button type="button" class="btn btn-secondary rounded-pill mb-4">
+                        <button type="button" class="btn btn-secondary rounded-pill mb-4 fw-bold">
                             Nu upgraden
                         </button>
                         <hr class="row mt-2">
@@ -101,9 +141,9 @@
 
                     <div class="row pt-5">
                         <div class="col-lg-6">
-                            <ul class="steps d-flex justify-content-between list-unstyled pb-2">
-                                <li class="done"><span><span data-feather="check"></span></span> Gegevens</li>
-                                <li class="active"><span>2</span>Bevestigen</li>
+                            <ul class="steps d-flex flex-column flex-sm-row justify-content-between list-unstyled pb-2">
+                                <li class="done mb-2 mb-sm-0"><span><span data-feather="check"></span></span> Gegevens</li>
+                                <li class="active mb-2 mb-sm-0"><span>2</span>Bevestigen</li>
                                 <li><span>3</span>Afronden</li>
                             </ul>
                         </div>
@@ -154,17 +194,20 @@
                                         </div>
                                         <div class="mb-4">
                                             <label for="" class="form-label">KvK-nummer <span
-                                                    class="text-danger">*</span> <span
-                                                    class="rounded-circle text-white bg-black bg-opacity-10 info ms-2"><span
-                                                        class="small">i</span></label>
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
                                             <input type="email" class="form-control"
                                                 placeholder="Vul je KvK-nummer in…">
                                         </div>
                                         <div class="mb-4">
                                             <label for="" class="form-label">BTW-nummer <span
-                                                    class="text-danger">*</span> <span
-                                                    class="rounded-circle text-white bg-black bg-opacity-10 info ms-2"><span
-                                                        class="small">i</span></label>
+                                                    class="text-danger">*</span> <a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                    class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                        class="small"  >i</span></a></label>
+                                                       
+
+
                                             <input type="email" class="form-control"
                                                 placeholder="Vul je BTW-nummer in…">
                                         </div>
@@ -183,7 +226,7 @@
                                         </div>
                                         <div class="text-end mt-4">
                                             <button type="submit"
-                                                class="btn btn-secondary btn-lg px-5 rounded-pill">Volgende</button>
+                                                class="btn btn-secondary btn-lg px-5 rounded-pill fw-bold">Volgende</button>
                                         </div>
                                     </div>
                                 </div>
@@ -240,6 +283,7 @@
                                     <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...
                                     </div>
                                 </div>
+                                
                                 <p class="text-muted opacity-25 lh-lg small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                             </div>
                         </div>
@@ -257,6 +301,14 @@
     <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+    </script>
+   
 </body>
 
 </html>

@@ -135,6 +135,7 @@ p, ul, ol, .rob {
   line-height: 1.1rem;
   width: 1rem;
   height: 1rem;
+  right:0;
 }
 
 .widget {
@@ -168,6 +169,7 @@ p, ul, ol, .rob {
     border-bottom: 1px solid #36367226;
     border-radius: 0;
     font-weight: 600;
+    opacity: 0.6;
   }
   & .btn.active {
     background: transparent;
@@ -175,6 +177,11 @@ p, ul, ol, .rob {
     border-color: $secondary;
     border-width: 4px;
     margin-bottom: -2px;
+    opacity: inherit;
+  }
+  & .btn:hover {
+    opacity: inherit;
+    background: none;
   }
 }
 
@@ -342,8 +349,22 @@ p, ul, ol, .rob {
 }
 
 .custom-radio .option span {
-  font-size: 12px;
-  color: #D0D0D0;
+    font-size: 12px;
+    color: #D0D0D0;
+}
+.custom-radio .option:hover{
+    border-color: #29CC98;
+    background-color: rgba(41, 204, 152, 0.05);
+}
+.custom-radio .option:hover .dot{
+    display: block;
+    background: #29CC98;
+}
+.custom-radio .option:hover .dot:before{
+    opacity: 1;
+}
+.custom-radio .option:hover span{
+    color:#29CC98;
 }
 #option-1:checked:checked ~ .option-1, 
 #option-2:checked:checked ~ .option-2,
@@ -405,7 +426,7 @@ code {
   border-radius: 5px;
 }
 .form-floating {
-  min-width: 120px;
+  min-width: 130px;
 }
 .thumb {
   width: 55px;
@@ -428,4 +449,160 @@ code {
 }
 .thumb img {
   max-width: 100%;
+}
+.form-floating > .form-select{
+  border-radius: 0.5rem;
+}
+header .navbar-nav .nav-item:after{
+  border-right: 1px solid #D8D8D8!important;
+  content: '';
+  display: block;
+  margin-left: 10px;
+}
+header .navbar-nav .nav-item{
+  display: flex;
+}
+header .navbar-nav .nav-item:last-child:after{
+  border: none!important;
+}
+.form-label{
+  color: #6B5BBF;
+  font-weight: 700;
+}
+.form-control, .form-control:focus{
+  color: #6B5BBF;
+  font-weight: 400;
+}
+.form-control::placeholder{
+  color:#989898;
+}
+.form-check .form-check-input:checked{
+  background-color: #29CC98!important;
+  border-color:#29CC98!important ;
+}
+.form-check .form-check-input:focus{
+  border-color:#29CC98!important ;
+  box-shadow: 0 0 0 0.25rem rgb(41 204 152 / 25%);
+}
+
+ul.notification-list {
+  position: absolute!important;
+  width: 400px;
+  right: 0;
+  display: none;
+  margin-top: 45px;
+  padding: 15px 0px;
+  border-radius: 15px;
+  border:none;
+  box-shadow: 0 5px 5px rgba(0,0,0,.15)!important;
+}
+.notification:hover + ul.notification-list, ul.notification-list:hover {
+  display: block;
+}
+ .notification-list:before {
+  content: "";
+  position: absolute!important;
+  right: 15px;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  z-index: 9999;
+  border-color: transparent transparent #fff transparent;
+}
+.notification-list h6{
+  color: #171724;
+  font-weight: bold;
+}
+.notification-list a{
+  text-decoration: none;
+  display: block;
+  padding: 15px 15px;
+}
+.notification-list p{
+  font-size: 12px;
+}
+.notification-list a:hover{
+  background-color: rgba(41, 204, 152, 0.05);
+}
+.notification-list a:hover .green-text{
+  color: #29CC98!important;
+}
+.notification-list .w-30{
+  width:30%;
+}
+.notification-list .w-70{
+  width:70%;
+}
+a.notification{
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+.tooltip .tooltip-inner{
+  background-color: #564999;
+  text-align: left;
+  }
+  .tooltip .tooltip-arrow:before {
+    border-top-color: #564999;
+    }
+
+
+/*# sourceMappingURL=style.css.map */
+@media (max-width: 1380px) {
+  .steps li{width: 33.3%;
+    background-color: #FAFAFB;
+  }
+  .steps li.done:after, .steps li:after{
+    right: 0;
+    max-width: 30px;
+  }
+}
+@media (max-width: 1100px) {
+.table-responsive.widget{
+  overflow: auto;
+}
+.table-responsive.widget table{
+  width:1100px;
+  
+}
+}
+@media (max-width: 767.98px) {
+  .navbar-brand img{
+    max-width: 70%;
+  }
+  .navbar .navbar-toggler {
+    top: 2.25rem;
+  }
+  
+  
+}
+@media (max-width: 650px) {
+  ul.notification-list{
+    right:inherit;
+    left: -150px
+  }
+}
+@media (max-width: 570px) {
+  ul.notification-list{
+    right:inherit;
+    left:0;
+  }
+  .navbar-nav{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .steps li.done:after, .steps li:after{
+    display: none;
+  }
+  .sidebar{
+    padding-top: 70px;
+  }
+  .navbar .navbar-toggler {
+    top: 1.25rem;
+  }
+  header .navbar-nav .nav-item:after{
+    display: none;
+  }
 }
