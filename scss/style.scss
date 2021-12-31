@@ -257,6 +257,7 @@ p, ul, ol, .rob {
 
 .info {
   padding: 0 0.465rem;
+  text-decoration: none;
 }
 
 .list-tick li {
@@ -482,7 +483,7 @@ header .navbar-nav .nav-item:last-child:after{
 }
 .form-check .form-check-input:focus{
   border-color:#29CC98!important ;
-  box-shadow: 0 0 0 0.25rem rgb(41 204 152 / 25%);
+  box-shadow: 0 0 0 0.25rem rgba(41, 204, 152, 0.25);
 }
 
 ul.notification-list {
