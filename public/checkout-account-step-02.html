@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +24,7 @@
             <span data-feather="search"></span>
             <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
         </div>
+        
         <div class="navbar-nav flex-row align-items-center pe-5">
             <div class="nav-item position-relative">
                 <a href="#" class="nav-link px-3 notif position-relative notification pt-3">
@@ -159,141 +159,129 @@
 
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-4">
                 <div class="pt-3 pb-2 ">
-                    <h1 class="h3 mb-3">Mijn review widget</h1>
+                    <h1 class="h3 mb-3">Je abbonnement</h1>
 
                     <div class="row pt-5">
-                        
+                        <div class="col-lg-6">
+                            <ul class="steps d-flex flex-column flex-sm-row justify-content-between list-unstyled pb-2">
+                                <li class="Donker done mb-2 mb-sm-0"><span><span data-feather="check"></span></span> Gegevens</li>
+                                <li class="active mb-2 mb-sm-0"><span>2</span>Bevestigen</li>
+                                <li><span>3</span>Afronden</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6"></div>
                         <div class="col-lg-7">
                             <div class="card widget p-5 mt-4">
-                                
-                                <div class="row pt-4">
-                                    <div class="col-lg-4">
-                                        <h6 class="pt-2 light">Widget stijl kiezen</h6>
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <div class="mb-4">
-                                            <ul class="nav nav-tabs custom-tabs" id="myTab" role="tablist">
-                                                <li class="nav-item" role="presentation">
-                                                  <button class="nav-link active " id="klein-tab" data-bs-toggle="tab" data-bs-target="#klein" type="button" role="tab" aria-controls="klein" aria-selected="true">Klein</button>
-                                                </li>
-                                                <li class="nav-item" role="presentation">
-                                                  <button class="nav-link " id="normaal-tab" data-bs-toggle="tab" data-bs-target="#normaal" type="button" role="tab" aria-controls="normaal" aria-selected="false">Normaal</button>
-                                                </li>
-                                                <li class="nav-item" role="presentation">
-                                                  <button class="nav-link " id="groot-tab" data-bs-toggle="tab" data-bs-target="#groot" type="button" role="tab" aria-controls="groot" aria-selected="false">Groot</button>
-                                                </li>
-                                                <li class="nav-item" role="presentation">
-                                                    <button class="nav-link " id="sticky-tab" data-bs-toggle="tab" data-bs-target="#sticky" type="button" role="tab" aria-controls="sticky" aria-selected="false">Sticky</button>
-                                                </li>
-                                              </ul>
-                                              
-                                        </div>
-                                    
-                                    </div>
-                                </div>
-                                   
-                                    <div class="tab-content" id="myTabContent">
-                                     <div class="tab-pane fade show active" id="klein" role="tabpanel" aria-labelledby="klein-tab">
-                                        <div class="row mb-4"> 
-                                            <div class="col-lg-4">
-                                                <h6 class="light">Thema</h6>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <h6 class="med">Kies een thema</h6>
-                                                <div class="custom-radio mb-4">
-                                                    <input type="radio" name="select" id="option-1" checked>
-                                                    <input type="radio" name="select" id="option-2">
-                                                    <label for="option-1" class="option option-1">
-                                                      <div class="dot"></div>
-                                                      <span>Licht</span>
-                                                    </label>
-                                                    <label for="option-2" class="option option-2 ms-2">
-                                                      <div class="dot"></div>
-                                                      <span>Donker</span>
-                                                    </label>
-                                                  </div>
-                                                <h6 class="med">Style widget</h6>
-
-                                                  <div class="custom-radio mb-4">
-                                                    <input type="radio" name="select1" id="option-3" >
-                                                    <input type="radio" name="select1" id="option-4">
-                                                    <input type="radio" name="select1" id="option-5" checked>
-                                                    <label for="option-3" class="option option-3">
-                                                      <div class="dot"></div>
-                                                      <span>Horizontaal</span>
-                                                    </label>
-                                                    <label for="option-4" class="option option-4 ms-2">
-                                                      <div class="dot"></div>
-                                                      <span>Verticaal</span>
-                                                    </label>
-                                                    <label for="option-5" class="option option-5 ms-2">
-                                                        <div class="dot"></div>
-                                                        <span>Vierkant</span>
-                                                      </label>
-                                                  </div>
-
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <h6 class="light pt-2"> Preview</h6>
-                                            </div>
-                                            <div class="col-lg-8">
-                                                <div class="mb-4">
-                                                    <div class="preview-custom">
-                                                        <div class="py-3 px-5">
-                                                        <img src="assets/img/logo.png" alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="rev text-center py-3 rounded-3">
-                                                            <h4 class="text-primary ">Cherry-Marketing</h4>
-                                                            <img src="assets/img/review.png" width="180px" alt="" class="img-fluid my-2">
-                                                            <h6 class="text-muted h6 lh-sm small fw-normal">213 beoordelingen</h6>
-                                                            <button type="button" class="btn fw-bold btn-secondary rounded-pill my-2">
-                                                                Review schrijven
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                        <div class="tab-pane fade" id="normaal" role="tabpanel" aria-labelledby="normaal-tab">Normaal</div>
-                                        <div class="tab-pane fade" id="groot" role="tabpanel" aria-labelledby="groot-tab">Groot</div>
-                                        <div class="tab-pane fade" id="sticky" role="tabpanel" aria-labelledby="sticky-tab">Sticky</div>
-                                      </div>
-                               
+                                <h4>Bevestigen je gegevens</h4>
                                 <hr>
                                 <div class="row pt-4">
                                     <div class="col-lg-4">
-                                        <h6 class="rob">iFrame code</h6>
+                                        <h6 class="text-primary">Bedrijfsgegevens</h6>
                                     </div>
-                                    <div class="col-lg-8">
-                                        <h6 class="med">Plaats deze code in je website</h6>
-                                        <div class="code-view">
-                                            <pre>
-                                            <code> 
-&lt&#33;&#45;&#45; NederlandReview code &#45;&#45;&gt;
-&ltscript&gt;
-    (function(n,e,d,e,r,l,a,n,d,r,e,v,i,e,w){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2694858,hjsv:6}; 
-        a=o.getElementsByTagName(‘head’)[0];
-        r=o.createElement(‘script’);r.async=1; 
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; 
-        a.appendChild(r); 
-    })(window,document,’https://static.hotjar.com/c/hotjar-','.js?sv=‘);
-&lt/script&gt;
-                                            </code> 
-                                            </pre>
-                                            <button type="button" class="btn btn-outline px-2 fw-bold">
-                                                Kopieer
-                                            </button>
-                                           
+                                    <div class="col-lg-7">
+                                        <div class="mb-4">
+                                            <h6 class="mb-2">Cherry-Marketing</h6>
+                                            <p class="mb-1">Nijkerk</p>
+                                            <p class="mb-1">Nederland</p>
+                                            <p class="mb-1">3861NJ</p>
+                                            <p class="mb-1">KvK-nummer 33296079</p>
                                         </div>
+                                       
+                                       
                                     </div>
                                 </div>
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">Contactpersoon</h6>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="mb-4">
+                                            <p class="mb-1">Nikola Popovic</p>
+                                            <p class="mb-1">nikola@cherry-marketing.nl</p>
+                                            <p class="mb-1">06112345678</p>
+                                         </div>
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <div class="row pt-4">
+                                    <div class="col-lg-12">
+                                        <h4 class="mb-3">Abbonnementsgegevens</h4>
+                                        <p class="">De factureringsgegevens zijn hetzelfde als de abonneegegevens</p>
+                                    </div>
+                                  
+                                </div>
+                                <div class="row pt-4">
+                                    <div class="col-lg-12">
+                                        <h4 class="mb-3">Algemene voorwaarden</h4>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label rob" for="exampleCheck1">Ik ga akkoord met <a href="#">de algemene NederlandReview voorwaarden</a></label>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                               <hr>
+                               <div class="d-flex justify-content-between">
+                                <button type="submit" class="btn btn-primary btn-lg px-5 rounded-pill fw-bold">Terug</button>
+                                <button type="submit" class="btn btn-secondary btn-lg px-5 rounded-pill fw-bold">Bevestigen</button>
+                               </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            
+                            <div class="card widget p-5 mt-4">
+                                <h5 class="mb-3">Upgrade: Widget add-on</h5>
+                                <p class="fs-14">Verhoog je conversie met een review-widget op je website.</p>
+                                <ul class="fs-14 list-unstyled list-tick">
+                                    <li>Toon reviews op je website, in je e-mails en in je digitale marketing.</li>
+                                    <li>Doelgerichte reviews tonen die het meest relevant zijn voor je (potentiële)
+                                        klanten.</li>
+                                </ul>
+                                <h6>Kies facturatiefrequentie</h6>
+
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-pills nav-fill bg-secondary rounded-pill p-1" id="myTab"
+                                    role="tablist">
+                                    <li class="nav-item w-50" role="presentation">
+                                        <button class="nav-link active rounded-pill py-3 h-100" id="home-tab"
+                                            data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                                            aria-controls="home" aria-selected="true">Per maand</button>
+                                    </li>
+                                    <li class="nav-item w-50" role="presentation">
+                                        <button class="nav-link rounded-pill py-3" id="profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                            aria-selected="false">Per jaar (20% korting)</button>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content pt-4">
+                                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <table class="table table-borderless table-sm rob">
+                                            <tr>
+                                                <td>€ 139,00 x 12 maanden</td>
+                                                <td class="text-end">€ 1.668,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>21% BTW</td>
+                                                <td class="text-end">€ 417,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3">20% korting</td>
+                                                <td class="text-end pb-3">€ 68,00</td>
+                                            </tr>
+                                            <tr class="border-1">
+                                                <td class="border-top pt-3 fw-bold">Totaal</td>
+                                                <td class="border-top text-end pt-3 fw-bold">€ 2.085,00</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...
+                                    </div>
+                                </div>
+                                
+                                <p class="text-muted opacity-25 lh-lg small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -318,6 +306,24 @@
 
 
     <script src="assets/js/script.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+    </script>
+    <script>
+        $(function () {
+  'use strict'
+
+  feather.replace({
+    'aria-hidden': 'true'
+  })
+  
+});
+    </script>
+   
 </body>
 
 </html>
