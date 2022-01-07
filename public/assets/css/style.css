@@ -181,6 +181,10 @@ p, ul, ol, .rob {
   background: none;
 }
 
+.custom-tabs.nav-tabs .nav-link:hover {
+  color: #363672;
+}
+
 .badge > * {
   vertical-align: text-top;
 }
@@ -381,11 +385,6 @@ p, ul, ol, .rob {
   border-color: #29CC98;
   background-color: rgba(41, 204, 152, 0.05);
 }
-
-/* .custom-radio .option:hover .dot {
-  display: block;
-  background: #29CC98;
-} */
 
 .custom-radio .option:hover .dot:before {
   opacity: 0;
@@ -631,30 +630,34 @@ a.notification {
   border-top-color: #564999;
 }
 
-
-
 path.highcharts-point.highcharts-color-0 {
-  fill: rgb(107 91 191);
+  fill: #6b5bbf;
   width: 40px;
 }
+
 path.highcharts-point.highcharts-color-0:hover {
   fill: #000;
   width: 40px;
 }
+
 div#container2 g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-color-0.highcharts-tracker path.highcharts-point.highcharts-color-0 {
-  fill: rgb(41, 204, 152);
+  fill: #29cc98;
   width: 40px;
 }
+
 div#container2 g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-color-0.highcharts-tracker path.highcharts-point.highcharts-color-0:hover {
   fill: #000;
   width: 40px;
 }
+
 text.highcharts-credits {
   display: none;
 }
+
 g.highcharts-axis.highcharts-yaxis text {
   display: none;
 }
+
 /* g.highcharts-legend-item.highcharts-column-series.highcharts-color-0.highcharts-series-0 {
   display: none;
 } */
@@ -663,15 +666,40 @@ g.highcharts-legend.highcharts-no-tooltip {
   overflow: hidden;
   white-space: nowrap;
 }
+
 path.highcharts-tick {
   display: none;
 }
+
 text.highcharts-axis-title {
   display: none;
 }
+
 g.highcharts-label.highcharts-series-label.highcharts-series-label-0.highcharts-color-none {
   display: none;
 }
+
+/******* Login pages *******/
+.field-icon {
+  position: absolute;
+  top: 41px;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #999999;
+}
+
+.login-detail .of p {
+  position: absolute;
+  top: -10px;
+  margin-left: -20px;
+}
+
+.login-detail.sign-up .form-check-input {
+  position: absolute;
+  left: 0;
+}
+
 @media (max-width: 1380px) {
   .steps li {
     width: 33.3%;

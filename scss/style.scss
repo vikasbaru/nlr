@@ -185,6 +185,11 @@ p, ul, ol, .rob {
   }
 }
 
+.custom-tabs.nav-tabs .nav-link:hover{
+  color: #363672;  
+}
+
+
 .badge > * {
   vertical-align: text-top;
 }
@@ -549,7 +554,7 @@ a.notification{
 
 
 path.highcharts-point.highcharts-color-0 {
-  fill: rgb(107 91 191);
+  fill: rgba(107,91,191,1);
   width: 40px;
 }
 path.highcharts-point.highcharts-color-0:hover {
@@ -586,6 +591,27 @@ text.highcharts-axis-title {
 }
 g.highcharts-label.highcharts-series-label.highcharts-series-label-0.highcharts-color-none {
   display: none;
+}
+
+/******* Login pages *******/
+.field-icon {
+  position: absolute;
+  top: 41px;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color:#999999;
+}
+
+.login-detail .of p{
+  position: absolute;
+  top: -10px;
+  margin-left: -20px;
+}
+.login-detail.sign-up .form-check-input{
+  position: absolute;
+  left:0;
 }
 
 
