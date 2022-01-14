@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-light sticky-top bg-white flex-md-nowrap p-0">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 ms-1 px-4" href="#">
+            <img src="assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="search d-flex align-items-center me-auto ps-4 text-muted">
+            <span data-feather="search"></span>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
+        </div>
+        
+        <div class="navbar-nav flex-row align-items-center pe-5">
+            <div class="nav-item position-relative">
+                <a href="#" class="nav-link px-3 notif position-relative notification pt-3">
+                    <span data-feather="bell"></span>
+                    <span class="notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">3</span>
+                    </a>
+                    <ul class="dropdown-menu notification-list">
+                        <h6 class="text-secondary ms-3">Notificiaties</h6>
+                        <li>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">10 minuten geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">2 uur geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">1 dag geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                       
+                      </ul>
+               
+            </div>
+            <div class="nav-item">
+                <a class="nav-link px-3 d-flex align-items-center account" href="#">
+                    <img src="assets/img/cherry.png" width="40" class="align-self-center" alt="">
+                    <span class="justify-content-center d-flex flex-column mx-2">
+                        <span class="d-block h6 text-black lh-sm mb-0 small">Cherry-Marketing</span>
+                        <span class="text-muted h6 lh-sm small mb-0 fw-normal">Bedrijfsprofiel</span>
+                    </span>
+					<span data-feather="chevron-down"></span>
+                </a>
+				<ul class="dropdown-menu account-list">
+					<div class="ms-3">
+					<h6 class="text-secondary">Cherry-Marketing</h6>
+					<p class="text-muted">contact@cherry-marketing.nl</p>
+					</div>
+					<hr>
+					<li>
+						<a href="#">
+							<h6 class="mb-2">Persoonlijk profiel</h6>
+						</a>
+						<a href="#">
+							<h6 class="mb-2">Mijn facturen</h6>
+						</a>
+						<hr>
+						<a href="#">
+							<h6 class="mb-2"><span data-feather="log-in" class="me-2"></span>Uitloggen</h6>
+						</a>
+					</li>
+				   
+				  </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-white sidebar collapse">
+                <div class="position-sticky pt-5 px-3 align-content-between d-flex flex-column h-100">
+                    <div class="aside-top">
+                        <h6
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-4 mt-4 mb-3 text-primary fs-6">
+                            <span>Menu</span>
+                        </h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <span data-feather="home"></span>
+                                    Overzicht
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="edit"></span>
+                                    Blogs maken
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="star"></span>
+                                    Mijn widget
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="briefcase"></span>
+                                    Bedrijfspagina
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside-bottom mt-auto text-center d-grid gap-0 px-4">
+                        <span class="d-block mb-2">Type account: <span class="fw-bold">Widget</span></span>
+                        <button type="button" class="btn btn-secondary rounded-pill mb-4 fw-bold">
+                            Nu upgraden
+                        </button>
+                        <hr class="row mt-2">
+                        <div class="text-start pb-4">
+                            <a href="" class="btn text-muted ps-0"><i data-feather="log-out"></i> Uitloggen</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-4">
+                <div class="pt-3 pb-2 ">
+                    <h1 class="h3 mb-3">Cherry-Marketing bewerken</h1>
+
+                    <div class="row pt-5">
+                        
+                        <div class="col-lg-7">
+                            <div class="card widget p-5 mt-4">
+                                <div class="text-end mt-4">
+                                    <button type="submit" class="btn btn-secondary btn-lg px-5 rounded-pill fw-bold">Wijzigingen apslaan</button>
+                                </div>
+                                <hr>
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">Bedrijfsprofiel</h6>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Cherry-Marketing</label>
+										    <div class="d-flex justify-content-between mb-4">
+											   <div class="custom-logo form-control me-3">
+                                                 <input type="file" class="form-control" name="file" placeholder="Logo uploaden">
+												 <p class="text-muted mb-0">PNG of JPG afbeelding niet groter dan 2MB</p>
+											   </div>
+											   <div class="img-preview align-items-center">
+												   <img src="./assets/img/male-placeholder-image.jpeg">
+											   </div>
+											</div>
+											
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Bedrijfsnaam <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <input type="text" class="form-control" placeholder="Bedrijfsnaam">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Bedrijfsnaam <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <input type="text" class="form-control" placeholder="Bedrijfsnaam">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Bedrijfsnaam <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <input type="text" class="form-control" placeholder="Bedrijfsnaam">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Bedrijfsnaam <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <input type="text" class="form-control" placeholder="Bedrijfsnaam">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Beschrijiving <span
+                                                    class="text-danger">*</span> <a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <textarea class="form-control" rows="5" placeholder=""></textarea>
+											<p class="text-muted fs-10">0/250 woorden gebruikt</p>
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Beschrijiving <span
+                                                    class="text-danger">*</span> <a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <textarea class="form-control" rows="5" placeholder=""></textarea>
+											<p class="text-muted fs-10">0/250 woorden gebruikt</p>
+                                        </div>
+                                        
+                                        
+                                        
+                                       
+                                      
+                                       
+                                    </div>
+                                </div>
+                                
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">SEO score<a href="#" data-bs-toggle="tooltip" title="" class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " data-bs-original-title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"><span class="small">i</span></a></h6>
+												<p class="text-muted mb-0 fs-10 me-2">Dit is de algemene score van uw tekst</p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <ul class="seo-list ps-0">
+											<li class="red">Het focuszoekwoord 'Besel' komt niet voor in de SEO-titel.</li>
+											<li class="red">Er is geen metabeschriving op gegeven Zoekmachines geven in plaats daarvan kopieen van de pagina veer</li>
+											<li class="red">De tekst bevat geen subkoppen. Voeg ten minste een subkopen toe</li>
+											<li class="yellow">Er verchijnen 1 afbeelding ap deze pagina, overweeg om er zo nodig enkele toe te voegen</li>
+											<li class="yellow">Er verchijnen geen uitgandee links op deze pagina, overweeg om er zo noding enkele toe te voegen</li>
+											<li class="green">Het trefwoord focus wordt weergegeven in de eerste alinea van de kopie</li>
+											<li class="green">De zoek woorddichtheld is 1.3% wat geweldig is, focuszoekwoord is 8 keer gevonden</li>
+											<li class="green">Er is geen metabeschriving opgegeven Zoekmachines geven in plaats daarvan kopieen van de pagina weer</li>
+											<li class="green">De tekst bevat 599 woorden Dit is meer dan of gelijk aan het aanbevolen minimum van 300 woorden</li>
+										</ul>
+                                       
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">Opties</h6>
+												
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="mb-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label rob" for="exampleCheck1">No Pop-up</label>
+                                        </div>
+                                        <div class="mb-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                            <label class="form-check-label rob" for="exampleCheck2">No Pop-up</label>
+                                        </div>
+                                        <div class="mb-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                            <label class="form-check-label rob" for="exampleCheck3">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Lorem ipsum <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                                            <select class="form-select" id="floatingSelect"
+                                                            aria-label="Floating label select example">
+                                                            <option selected>Alles</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Lorem ipsum <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                                            <select class="form-select" id="floatingSelect"
+                                                            aria-label="Floating label select example">
+                                                            <option selected>Alles</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                        </div>
+                                        <div class="mb-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                            <label class="form-check-label rob" for="exampleCheck4">Homepage</label>
+                                        </div>
+                                        <div class="mb-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                            <label class="form-check-label rob" for="exampleCheck5">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="" class="form-label">Lorem ipsum <span
+                                                    class="text-danger">*</span><a href="#" data-bs-toggle="tooltip"   title="kopieer deze code en plaats deze in de <head> op je website. Of stuur deze simpel en snel naar je webbouwer"
+                                                        class="rounded-circle bs-tooltip-bottom text-white bg-primary  info ms-2 " ><span
+                                                            class="small"  >i</span></a></label>
+                                            <input type="text" class="form-control" placeholder="Lorem ipsum">
+                                        </div>
+                                       
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <div class="row pt-4">
+                                    <div class="col-lg-4">
+                                        <h6 class="text-primary">Categorieen</h6>
+												
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="mb-2 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck6">
+                                            <label class="form-check-label rob" for="exampleCheck6">Verzekeringen</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck7">
+                                            <label class="form-check-label rob" for="exampleCheck7">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck8">
+                                            <label class="form-check-label rob" for="exampleCheck8">Lorem ipsum dolar</label>
+                                        </div>
+                                        <div class="mb-4 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck9">
+                                            <label class="form-check-label rob" for="exampleCheck9">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck10">
+                                            <label class="form-check-label rob" for="exampleCheck10">Energie</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck11">
+                                            <label class="form-check-label rob" for="exampleCheck11">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck12">
+                                            <label class="form-check-label rob" for="exampleCheck12">Lorem ipsum dolar</label>
+                                        </div>
+                                        <div class="mb-4 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck13">
+                                            <label class="form-check-label rob" for="exampleCheck13">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck13">
+                                            <label class="form-check-label rob" for="exampleCheck13">Vakantie</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck14">
+                                            <label class="form-check-label rob" for="exampleCheck14">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck15">
+                                            <label class="form-check-label rob" for="exampleCheck15">Lorem ipsum dolar</label>
+                                        </div>
+                                        <div class="mb-4 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck16">
+                                            <label class="form-check-label rob" for="exampleCheck16">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck17">
+                                            <label class="form-check-label rob" for="exampleCheck17">Dating</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck18">
+                                            <label class="form-check-label rob" for="exampleCheck18">Lorem ipsum</label>
+                                        </div>
+                                        <div class="mb-2 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck19">
+                                            <label class="form-check-label rob" for="exampleCheck19">Lorem ipsum dolar</label>
+                                        </div>
+                                        <div class="mb-4 ms-4 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck20">
+                                            <label class="form-check-label rob" for="exampleCheck20">Lorem ipsum</label>
+                                        </div>
+                                      
+                                        
+                                      
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="text-end mt-4">
+                                    <button type="submit"
+                                        class="btn btn-secondary btn-lg px-5 rounded-pill fw-bold">Wijzigingen apslaan</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                           
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <!-- <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+
+
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+    </script>
+    <script>
+        $(function () {
+  'use strict'
+
+  feather.replace({
+    'aria-hidden': 'true'
+  })
+  
+});
+    </script>
+   
+</body>
+
+</html>

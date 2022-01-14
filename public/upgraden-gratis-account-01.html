@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-light sticky-top bg-white flex-md-nowrap p-0">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 ms-1 px-4" href="#">
+            <img src="assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="search d-flex align-items-center me-auto ps-4 text-muted">
+            <span data-feather="search"></span>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Zoeken…">
+        </div>
+        
+        <div class="navbar-nav flex-row align-items-center pe-5">
+            <div class="nav-item position-relative">
+                <a href="#" class="nav-link px-3 notif position-relative notification pt-3">
+                    <span data-feather="bell"></span>
+                    <span class="notifs position-absolute top-1 text-center text-white bg-danger translate-middle rounded-circle">3</span>
+                    </a>
+                    <ul class="dropdown-menu notification-list">
+                        <h6 class="text-secondary ms-3">Notificiaties</h6>
+                        <li>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">10 minuten geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">2 uur geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="d-flex justify-content-between">
+                                    <div class="w-70">
+                                        <h6 class="mb-2">Je proflel is nog nlet helemaal compleet</h6>
+                                        <p class="text-muted">voeg een logo een website link toe om je profiel compleet te maken</p>
+                                    </div>
+                                    <div class="w-30 text-end">
+                                        <p class="text-muted green-text">1 dag geleden</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </li>
+                       
+                      </ul>
+               
+            </div>
+            <div class="nav-item">
+                <a class="nav-link px-3 d-flex align-items-center account" href="#">
+                    <img src="assets/img/cherry.png" width="40" class="align-self-center" alt="">
+                    <span class="justify-content-center d-flex flex-column mx-2">
+                        <span class="d-block h6 text-black lh-sm mb-0 small">Cherry-Marketing</span>
+                        <span class="text-muted h6 lh-sm small mb-0 fw-normal">Bedrijfsprofiel</span>
+                    </span>
+					<span data-feather="chevron-down"></span>
+                </a>
+				<ul class="dropdown-menu account-list">
+					<div class="ms-3">
+					<h6 class="text-secondary">Cherry-Marketing</h6>
+					<p class="text-muted">contact@cherry-marketing.nl</p>
+					</div>
+					<hr>
+					<li>
+						<a href="#">
+							<h6 class="mb-2">Persoonlijk profiel</h6>
+						</a>
+						<a href="#">
+							<h6 class="mb-2">Mijn facturen</h6>
+						</a>
+						<hr>
+						<a href="#">
+							<h6 class="mb-2"><span data-feather="log-in" class="me-2"></span>Uitloggen</h6>
+						</a>
+					</li>
+				   
+				  </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-white sidebar collapse">
+                <div class="position-sticky pt-5 px-3 align-content-between d-flex flex-column h-100">
+                    <div class="aside-top">
+                        <h6
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-4 mt-4 mb-3 text-primary fs-6">
+                            <span>Menu</span>
+                        </h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <span data-feather="home"></span>
+                                    Overzicht
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="edit"></span>
+                                    Blogs maken
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="star"></span>
+                                    Mijn widget
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span data-feather="briefcase"></span>
+                                    Bedrijfspagina
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside-bottom mt-auto text-center d-grid gap-0 px-4">
+                        <span class="d-block mb-2">Type account: <span class="fw-bold">Widget</span></span>
+                        <button type="button" class="btn btn-secondary rounded-pill mb-4 fw-bold">
+                            Nu upgraden
+                        </button>
+                        <hr class="row mt-2">
+                        <div class="text-start pb-4">
+                            <a href="" class="btn text-muted ps-0"><i data-feather="log-out"></i> Uitloggen</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pt-4">
+                <div class="pt-3 pb-2 ">
+                    <h1 class="h3 mb-3">Account Upgraden</h1>
+
+                        <div class="row">
+                            <div class="col-lg-6 mx-lg-auto col-md-8 col-sm-8 col-xs-12  mx-md-auto mx-sm-auto my-5 d-flex align-items-center flex-column justify-content-center">
+                                <h3 class="h3 mb-3 text-center">Upgrade naar een premimum pakket om meer funcities te ontegrendelen</h3>
+                                <p class="text-center">Krijg toegang tot waardevolle add-ons die voldoen aan de behoeften van je bedrijf Elke add-on bevat speciale functies om nog meer uit nederlandReview te halen</p>
+                                <div class="d-flex flex-wrap align-items-center w-100 justify-content-between my-3">
+                                    <p class="tick text-primary mb-2 ">Verhoog je conversie</span></p>
+                                    <p class="tick text-primary mb-2">Verzamel reviews</span></p>
+                                    <p class="tick text-primary mb-2 ">Verhoog vertrouwen</span></p>
+                                    <p class="tick text-primary mb-2">Google Seller Rating</span></p>
+
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+              <div class="row">
+				<div class="col-lg-12">
+					<div class="col-lg-4 mx-lg-auto">
+						<ul class="nav nav-pills nav-fill bg-secondary rounded-pill p-1" id="myTab" role="tablist">
+							<li class="nav-item w-50" role="presentation">
+								<button class="nav-link rounded-pill py-3 h-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Maandelijks</button>
+							</li>
+							<li class="nav-item w-50" role="presentation">
+								<button class="nav-link rounded-pill py-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Jaarlijks (20% korting!)</button>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-content py-4">
+						<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div class="row">
+								<div class="col-sm-6 col-md-6 col-lg-6 col-xl-3  mt-4">
+								  <div class="card border-0 p-4 h-100">
+									<div class="card-body text-center">
+										<h3 class=" card-title">Site Widget Add</h3>
+										<p class="text-muted fs-10">Je eigen unieke widget + reagren op</p>
+										<h4 class="my-4">€ 9,95<span class="text-muted ms-3 fs-10">prija per maand</span></h4>
+										<div class="d-grid mb-4">
+											<button type="submit" class="btn btn-primary rounded-pill p-3">Nu upgraden</button>
+										</div>
+										<hr>
+									 <h6 class="mb-2">WAT BEVAT DIT PAKKET?</h6>
+									 <ul class="tick-list lh-lg ps-0 text-primary">
+										<li>USP / voordeel / inhoud</li>
+										<li>USP / voordeel / inhoud</li>
+										<li>USP / voordeel / inhoud</li>
+										
+									</ul>
+									</div>
+								  </div>
+								</div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3  mt-4">
+                                    <div class="card border-0 p-4 h-100">
+                                      <div class="card-body text-center">
+                                          <h3 class=" card-title">Add-on title</h3>
+                                          <p class="text-muted fs-10">Je eigen unieke widget + reagren op</p>
+                                          <h4 class="my-4">€ 149,95<span class="text-muted ms-3 fs-10">prija per maand</span></h4>
+                                          <div class="d-grid mb-4">
+                                              <button type="submit" class="btn btn-primary rounded-pill p-3">Nu upgraden</button>
+                                          </div>
+                                          <hr>
+                                       <h6 class="mb-2">WAT BEVAT DIT PAKKET?</h6>
+                                       <ul class="tick-list lh-lg ps-0 text-primary">
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          
+                                      </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3  mt-4">
+                                    <div class="card border-0 p-4 h-100">
+                                      <div class="card-body text-center">
+                                          <h3 class=" card-title">1x BLOG KOP</h3>
+                                          <p class="text-muted fs-10">Je eigen unieke widget + reagren op</p>
+                                          <h4 class="my-4">€ 350,00<span class="text-muted ms-3 fs-10">prija per maand</span></h4>
+                                          <div class="d-grid mb-4">
+                                              <button type="submit" class="btn btn-primary rounded-pill p-3">Nu upgraden</button>
+                                          </div>
+                                          <hr>
+                                       <h6 class="mb-2">WAT BEVAT DIT PAKKET?</h6>
+                                       <ul class="tick-list lh-lg ps-0 text-primary">
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          
+                                      </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3  mt-4">
+                                    <div class="card border-0 p-4 h-100">
+                                      <div class="card-body text-center">
+                                          <h3 class=" card-title">BLOG ABE</h3>
+                                          <p class="text-muted fs-10">Je eigen unieke widget + reagren op</p>
+                                          <h4 class="my-4">€ 350,00<span class="text-muted ms-3 fs-10">prija per maand</span></h4>
+                                          <div class="d-grid mb-4">
+                                              <button type="submit" class="btn btn-primary rounded-pill p-3">Nu upgraden</button>
+                                          </div>
+                                          <hr>
+                                       <h6 class="mb-2">WAT BEVAT DIT PAKKET?</h6>
+                                       <ul class="tick-list lh-lg ps-0 text-primary">
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          <li>USP / voordeel / inhoud</li>
+                                          
+                                      </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+							  </div>
+						</div>
+						<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+								<div class="col-12 col-xl-6 mt-4">
+                                    <div class="custom-radio radio-list flex-column align-items-center">
+                                        <input type="radio" name="select1" id="option-3" checked="">
+                                        <input type="radio" name="select1" id="option-4">
+                                        <input type="radio" name="select1" id="option-5" >
+                                        <input type="radio" name="select1" id="option-6" >
+                                        <label for="option-3" class="option option-3 d-flex justify-content-between mb-3">
+                                            <div class="">
+                                              <h3>Site Widget Add-on</h3>
+                                              <span class="badge rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">20% korting </span>
+                                            </div>
+                                            <div class="">
+                                               <h3>€ 9,95<span class="fs-10 mx-2">/</span> <span class="fs-10">Maand</span></h3>
+                                            </div>
+                                          <div class="dot"></div>
+                                          
+                                        </label>
+                                        <label for="option-4" class="option option-4 d-flex justify-content-between mb-3">
+                                            <div class="">
+                                                <h3>1x blog plaatsen</h3>
+                                                <span class="badge rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">20% korting </span>
+                                              </div>
+                                              <div class="">
+                                                 <h3>€ 12,95<span class="fs-10 mx-2">/</span> <span class="fs-10">Maand</span></h3>
+                                              </div>
+                                            <div class="dot"></div>
+                                        </label>
+                                        <label for="option-5" class="option option-5 d-flex justify-content-between mb-3">
+                                            <div class="">
+                                                <h3>Blogs abboneneent</h3>
+                                                <span class="badge rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">20% korting </span>
+                                              </div>
+                                              <div class="">
+                                                 <h3>€ 54,95<span class="fs-10 mx-2">/</span> <span class="fs-10">Maand</span></h3>
+                                              </div>
+                                            <div class="dot"></div>
+                                            
+                                          </label>
+                                          <label for="option-6" class="option option-6 d-flex justify-content-between">
+                                            <div class="">
+                                                <h3>Site Widget Add-on</h3>
+                                                <span class="badge rounded-pill bg-secondary bg-opacity-10 px-2 text-secondary">20% korting </span>
+                                              </div>
+                                              <div class="">
+                                                 <h3>€ 99,95<span class="fs-10 mx-2">/</span> <span class="fs-10">Maand</span></h3>
+                                              </div>
+                                            <div class="dot"></div>
+                                            
+                                          </label>
+                                      </div>
+                                </div>
+                                <div class="col-12 col-xl-6 mt-4">
+                                    <div class="card border-0 p-4 h-100">
+                                        <div class="card-body text-center">
+                                            <h3 class=" card-title">Site Widget Add-on</h3>
+                                            <p class="text-muted fs-10">Dit pakket bevat de volgande opties</p>
+                                            
+                                            <hr>
+                                         <ul class="lh-lg ps-0 text-primary list-none">
+                                            <li class="mb-1"><span class="tick"></span>USP / voordeel / inhoud</li>
+                                            <li class="mb-1"><span class="tick"></span>USP / voordeel / inhoud</li>
+                                            <li class="mb-1"><span class="tick"></span>USP / voordeel / inhoud</li>
+                                            <li class="text-muted mb-1 ps-2"><span class="close me-3"></span>USP / voordeel / inhoud</li>
+                                            <li class="text-muted mb-1 ps-2"><span class="close me-3"></span>USP / voordeel / inhoud</li>
+                                            <li class="text-muted mb-1 ps-2"><span class="close me-3"></span>USP / voordeel / inhoud</li>
+                                            <li class="text-muted mb-1 ps-2"><span class="close me-3"></span>USP / voordeel / inhoud</li>
+                                            
+                                        </ul>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <!-- <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+
+
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+    </script>
+    <script>
+        $(function () {
+  'use strict'
+
+  feather.replace({
+    'aria-hidden': 'true'
+  })
+  
+});
+    </script>
+   
+</body>
+
+</html>
